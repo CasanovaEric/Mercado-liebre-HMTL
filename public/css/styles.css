@@ -38,8 +38,9 @@ color: #39b54a;
 
 
 .fa-bars { 
-    background-color:#03264C;
-    text-align: center;
+    background-color:#035dbd;
+    color: white;
+    padding: 8px
 
 } 
 
@@ -48,3 +49,12 @@ color: #39b54a;
 .tarjeta { text-align: center;
     color: #03264C;}
     .pie { text-align: center;}
+
+    .gris-claro { background-color: #ebebeb;
+    text-align: center; 
+padding-top: 5px; }
+
+    
+    .fondo-pie { background-color:white; 
+    padding-top: 8px;
+padding-bottom: 8px;}
