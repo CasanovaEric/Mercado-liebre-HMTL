@@ -1,0 +1,50 @@
+.barra { text-align: center;
+}
+
+.compra { text-align: center;}
+
+
+.fondo { 
+
+    background-color:#EAC926; ;
+    background-size: cover;
+}
+
+p { font-family: 'Roboto', sans-serif;
+font-size: 12px;}
+
+h4 { font-family: 'Roboto', sans-serif;
+font-size: 24px; }
+
+.precio { 
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.descuento { 
+    font-weight: bold;
+    font-size: 16px;
+color: #39b54a;
+}
+
+.descripcion { 
+    font-size: 16px;
+}
+
+.fa-truck { 
+    color:#39b54a;; 
+
+}
+
+
+.fa-bars { 
+    background-color:#03264C;
+    text-align: center;
+
+} 
+
+.burger-menu { text-align: center;}
+
+.tarjeta { text-align: center;
+    color: #03264C;}
+    .pie { text-align: center;}
