@@ -1,13 +1,34 @@
-.barra { text-align: center;
+.cabecera { display: flex;
 }
 
-.compra { text-align: center;}
+.logo { width: 50%;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+
+.barra { 
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-around;
+    margin-left: 20px;
+    
+    
+}
+
+.compra { 
+    justify-content: space-around;
+    margin-left: 20px;
+
+}
 
 
 .fondo { 
 
     background-color:#EAC926; ;
     background-size: cover;
+    
 }
 
 p { font-family: 'Roboto', sans-serif;
@@ -19,28 +40,66 @@ font-size: 24px; }
 .precio { 
     font-size: 18px;
     font-weight: bolder;
+    flex-direction: row;
+    flex-grow: 0.30;
+    justify-content:flex-start;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
 .descuento { 
     font-weight: bold;
     font-size: 16px;
 color: #39b54a;
+justify-content:flex-start;
+flex-grow:0.70;
+flex-direction: row;
+align-items: flex-start;
 }
 
 .descripcion { 
     font-size: 16px;
+
 }
+.descripcion:hover {display:show; }
+.descripcion:hover {display:none;}
 
 .fa-truck { 
-    color:#39b54a;; 
+    color:#39b54a;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 
-}
+    display: block;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: relative;
+right: 20px;
+top: -15px;
+
+
+
+ }
+
+
+ @keyframes fa-truck {
+     0% { transform: rotate(0deg);}
+     25% { transform: rotate(-45deg);}
+     100% { transform: rotate(-90deg);}
+ }
+
 
 
 .fa-bars { 
     background-color:#035dbd;
     color: white;
-    padding: 8px
+    padding: 8px;
+    border-radius: 20%;
 
 } 
 
@@ -52,9 +111,95 @@ color: #39b54a;
 
     .gris-claro { background-color: #ebebeb;
     text-align: center; 
-padding-top: 5px; }
+padding-top: 5px;
+margin: 0 auto }
 
     
     .fondo-pie { background-color:white; 
     padding-top: 8px;
 padding-bottom: 8px;}
+
+.centrar { text-align: center; 
+width: 90%;
+padding:15px;}
+
+.margen-producto { margin-bottom: 10px;
+border-top:solid 1px #ebebeb;
+box-sizing: border-box;
+padding: auto;
+display:flex;}
+
+.blanco { background-color: white;}
+
+.menu { text-align: left;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:unset;
+    align-content:flex-start;}
+
+.banner { display: flex;
+margin-top: 5px;}
+
+@media screen and (max-width:425px){
+    .descripcion { display: none; }
+    .menu { display: none; }
+    .blanco {box-shadow: 0px 0px 10px rgb(100, 100, 100); }
+}
+     
+ 
+
+@media screen and (min-width:768px) { 
+    
+    .burger-menu { display: none;}
+    .blanco:hover { box-shadow: 0px 0px 10px rgb(100, 100, 100); }
+    .fa-truck:hover { 
+        animation-name: fa-truck;
+        animation-duration: 500ms;
+        animation-iteration-count: initial;
+        
+    }
+}
+
+.cuenta {  order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;}
+
+.login {  order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;}
+
+.compras { order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;}
+
+.submenu1 {  order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;}
+
+.submenu2 {  order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;}
+
+.submenu3 {  order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;}
+
+.submenu4 {  order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;}
