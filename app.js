@@ -8,7 +8,7 @@ app.use(express.static(publicPath))
 
 
 app.listen(process.env.PORT || 3000, () =>  
-console.log("Escuchando en el puerto"));  
+console.log("Houston todo en orden en el puerto"));  
 
 app.get("/", (req, res) => { 
     res.sendFile(__dirname + "/views/home.html")
