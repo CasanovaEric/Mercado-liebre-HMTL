@@ -1,12 +1,25 @@
 {
-"name": "mercadoliebre",
-"version": "1.0.0",
-"main": "app.js",
-"scripts": {
- "start": "node app.js", 
- "dev": "nodemon app.js" 
-}, 
-"repository": {
+  "name": "mercadoliebre",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/CasanovaEric/Mercado-liebre-HMTL.git"
-}  }
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "bugs": {
+    "url": "https://github.com/CasanovaEric/Mercado-liebre-HMTL/issues"
+  },
+  "homepage": "https://github.com/CasanovaEric/Mercado-liebre-HMTL#readme",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
